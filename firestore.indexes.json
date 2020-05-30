@@ -1,0 +1,37 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "works",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "targetYearMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userRef.id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "workedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "works",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "targetYearMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "workedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
