@@ -7,7 +7,7 @@
     "test": "yarn build && yarn firebase emulators:exec --only functions,firestore \"yarn jest\""
   },
   "engines": {
-    "node": "8"
+    "node": "10"
   },
   "main": "lib/index.js",
   "dependencies": {
