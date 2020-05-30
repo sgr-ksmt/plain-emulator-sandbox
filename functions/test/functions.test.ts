@@ -3,7 +3,7 @@ import * as firebase from '@firebase/testing'
 
 // Please input your firebase project id.
 const REAL_FIREBASE_PROJECT_ID = 'your-firebase-project-id'
-
+jest.setTimeout(30000)
 describe('test user.onCreate', () => {
   let unsubscribe: any
   afterAll(() => {
